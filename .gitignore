@@ -1,0 +1,23 @@
+# Entornos y cachés de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Datos generados (se reproducen con build_dataset.py)
+out*/
+*.jsonl
+eval_report*.json
+preds*.jsonl
+
+# Caché del léxico ARASAAC (se descarga sola; licencia CC BY-NC-SA, no redistribuir aquí)
+arasaac_es.json
+
+# Visualizaciones generadas
+pares_pictos*.html
+
+# Sistema / editores
+.DS_Store
+.idea/
+.vscode/

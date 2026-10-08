@@ -1,0 +1,8 @@
+datasets>=3.0
+spacy>=3.7
+sacrebleu>=2.4
+requests
+huggingface_hub
+fasttext-wheel        # en NumPy 2 / Python reciente: usar fasttext-numpy2-wheel si falla
+# Modelo de spaCy (instalar aparte):
+#   python -m spacy download es_core_news_lg
